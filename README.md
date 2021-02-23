@@ -9,6 +9,8 @@ There is also a script to assist with installing the client on a Mac.
 
 `./install-wg-host.sh [host ip] [client ip] [dns ip]`
 
+Note `[host ip]` and `[client ip]` are new IPs and should not be in use anywhere else on your network.
+
 example
 
 `./install-wg-host.sh 192.168.10.1 192.168.10.2 192.168.1.1`
